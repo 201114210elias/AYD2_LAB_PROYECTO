@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  ayd2_lab_proyecto:
+    image: ayd2_lab_proyecto
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3333:3333
